@@ -14,7 +14,7 @@ Example:
 {
     "subs": ["programming", "technology", "economics"],
     "days": [1, 2, 3, 4, 5],
-    "timeOfDay": 55,
+    "timeOfDay": 390,
     "dest": "myemail@address.com",
 
     "emailConfig": {
@@ -28,5 +28,6 @@ Example:
     }
 }
 ```
+*This config will email the top 25 posts from /r/programming, /r/technology, and /r/economics every weekday (M-F) at 6:30am to myemail@address.com*
 
 
